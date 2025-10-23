@@ -10,6 +10,6 @@ public class LibraryRoyaltyCalculator {
         a1.addTitle(book2);
         a1.addTitle(book3);
 
-
+        System.out.printf("Author: %s, Royalties: %skr.", a1.getName(), String.format(java.util.Locale.US, "%.2f", a1.calculateRoyalties()));
     }
 }
